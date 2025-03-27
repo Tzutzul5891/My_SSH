@@ -8,6 +8,3 @@ A lightweight, asynchronous SSH server implemented in Rust. It uses OpenSSL for 
 - **Client Isolation** – Each client gets its own working directory.  
 - **Command Handling** – Supports shell commands like `cd`, `pwd`, and more.  
 - **Custom Configuration** – Configure server settings via command-line arguments.  
-
-### 🐝 Contributing  
-Contributions are welcome! Feel free to open issues or submit pull requests.  
