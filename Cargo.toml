@@ -1,0 +1,20 @@
+[package]
+name = "ssh"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+openssl = "0.10"
+aes = "0.8"
+rand = "0.8"
+rsa = "0.10.0-pre.3"
+sha2 = "0.10"
+hmac = "0.12"
+diesel = { version = "2.2.5", features = ["mysql", "r2d2"] }
+dotenvy = "0.15.7"
+cipher = "0.4.4"
+flate2 = "1.0.35"
+bcrypt = "0.16.0"
+tokio-pty-process = "0.3.0"
+nix = "0.26"
